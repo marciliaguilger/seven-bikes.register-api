@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: register
+  datasource:
+    url: jdbc:postgresql://localhost:6543/register  # URL correta
+    username: sevenbikes                            # Usuário do Banco
+    password: sevenbikes                            # Senha
+    driver-class-name: org.postgresql.Driver        # Nome do driver JDBC
+
+  flyway:
+    enabled: true                                  # Habilita/Desabilita Flyway
+    url: jdbc:postgresql://localhost:6543/register  # Conexão do Flyway
+    user: sevenbikes                                # Usuário para Flyway
+    password: sevenbikes                            # Senha para Flyway
+    locations: classpath:db/migration               # Caminho das migrações

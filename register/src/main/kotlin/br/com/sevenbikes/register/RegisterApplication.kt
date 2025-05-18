@@ -1,11 +1,11 @@
-package br.com.seven_bikes.register_api.register_api
+package br.com.sevenbikes.register
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class RegisterApiApplication
+class RegisterApplication
 
 fun main(args: Array<String>) {
-	runApplication<RegisterApiApplication>(*args)
+	runApplication<RegisterApplication>(*args)
 }

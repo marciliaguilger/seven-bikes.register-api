@@ -1,10 +1,10 @@
-package br.com.seven_bikes.register_api.register_api
+package br.com.sevenbikes.register
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class RegisterApiApplicationTests {
+class RegisterApplicationTests {
 
 	@Test
 	fun contextLoads() {

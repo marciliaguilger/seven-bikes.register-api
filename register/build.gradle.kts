@@ -5,7 +5,7 @@ plugins {
 	id("io.spring.dependency-management") version "1.1.7"
 }
 
-group = "br.com.seven-bikes.register-api"
+group = "br.com.sevenbikes"
 version = "0.0.1-SNAPSHOT"
 
 java {
